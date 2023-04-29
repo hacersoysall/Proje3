@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Big Shoulders Display';
+    font-size: 55px;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Outfit';
+    color: #444444;
+}
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 100%;
+    background-color: #ddd;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+}
+
+.box1 {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background-image: url("desktop/image-map.png");
+}
+
+
+.box2 {
+    height: 400px;
+    background-color: #151515;
+    margin: 0;
+    padding: 0;
+}
+.box2 .baslik1{
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-left: 10%;
+    color: white;
+    font-size: 40px;
+}
+.box2 .baslik2{
+    color: #D5966C;
+    margin-left: 60%;
+    margin-top: -7%;
+    font-size: 25px;
+}
+.box2 .ilk_paragraf{
+    color: white;
+    margin-left: 60%;
+}
+.box2 .ikinci_paragraf{
+    color: white;
+    margin-left: 60%;
+}
+
+.box3 {
+    height: 200px;
+    background-color: #D5966C;
+    margin: 0;
+    padding: 0;
+}
+.box3 img{
+    width: 15%;
+    padding-top: 3%;
+    padding-left: 10%   ;
+}
+.box3 p{
+    margin-left: 40%;
+    margin-top: -5%;
+}
+.list {
+    list-style: none;
+    margin-right: 220px;
+    margin-top: -50px;
+    padding: 0;
+    color: #151515;
+
+}
+
+.list li {
+    display: inline-block;
+    float: right;
+    margin-right: -60px; 
+
+}
+.icon {
+    width:100px;
+    color: black;
+}
+.list li img {
+    filter: invert(100%);
+}
+.icon:hover{
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+
+}
+
+.btn1{
+    font-family: 'Outfit';
+    width: 15%;
+    height: 50px;
+    position: absolute;
+    margin-top: -39.6%;
+    margin-left: 14%;
+    background-color: #151515;
+    color: white;
+}
+.btn2{
+
+    position: absolute;
+    width:4%;
+    height: 50px;
+    margin-top: -39.6%;
+    margin-left: 10%;
+    background-color: #D5966C;
+}
+.btn1:hover ~ .btn2 {
+    background-color: #151515;
+}
+.btn1:hover{
+    background-color: #D5966C;
+}
+/*-------- büyük tablet------------*/
+@media only screen and (max-width: 992px) {
+    .box1 {
+        width: 100%;
+        height: 600px;
+        background-image:url("tablet/image-map.png");
+
+    }
+    .btn1 {
+        width: 23%;
+        height: 50px;
+        position: absolute;
+        left: 14%;
+        color: white;
+        margin-top: -600px;
+    }
+    .btn2 {
+        width: 6%;
+        height: 50px;
+        position: absolute;
+        left: 12.2%;
+        color: white;
+        margin-top: -600px;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 500px;
+    }
+    .box2 .baslik1{
+        margin-top: 8%;
+        padding-top: 0%;
+
+    }
+    .box2 .baslik2{
+        margin-left: 50%;
+        margin-top: -14%;
+    }
+    .box2 .ilk_paragraf{
+        padding-top: 2%;
+        margin-left: 50%;
+
+    }
+    .box2 .ikinci_paragraf{
+        padding-top: 2%;
+        margin-left: 50%;
+
+    }
+
+
+    .box3 {
+        height: 150px;
+    }
+    .box3 .baslik{
+        width: 15%;
+        margin-left: -4%;
+    }
+    .box3 p{
+        margin-top: -5%;
+        margin-left: 27%;
+
+    }
+    .list {
+        list-style: none;
+        margin-right: 20px;
+        margin-top: -60px;
+        padding: 0;
+        color: #151515;
+
+    }
+    .list li {
+        display: inline-block;
+        float: right;
+        margin-right: -60px;
+        padding-top: 0%;
+
+
+    }
+}
+/*-----TABLET------------*/
+@media only screen and (max-width: 768px) {
+    .box1 {
+        width: 100%;
+        height: 600px;
+        background-image:url("tablet/image-map.png");
+
+    }
+    .btn1 {
+        width: 23%;
+        height: 50px;
+        position: absolute;
+        left: 14%;
+        color: white;
+        margin-top: -600px;
+    }
+    .btn2 {
+        width: 6%;
+        height: 50px;
+        position: absolute;
+        left: 12.2%;
+        color: white;
+        margin-top: -600px;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 500px;
+    }
+    .box2 .baslik1{
+        margin-top: 8%;
+        padding-top: 0%;
+
+    }
+    .box2 .baslik2{
+        margin-left: 50%;
+        margin-top: -14%;
+    }
+    .box2 .ilk_paragraf{
+        padding-top: 2%;
+        margin-left: 50%;
+
+    }
+    .box2 .ikinci_paragraf{
+        padding-top: 2%;
+        margin-left: 50%;
+
+    }
+
+
+    .box3 {
+        height: 150px;
+    }
+    .box3 .baslik{
+        width: 15%;
+        margin-left: -4%;
+    }
+    .box3 p{
+        margin-top: -5%;
+        margin-left: 27%;
+
+    }
+    .list {
+        list-style: none;
+        margin-right: 20px;
+        margin-top: -60px;
+        padding: 0;
+        color: #151515;
+
+    }
+    .list li {
+        display: inline-block;
+        float: right;
+        margin-right: -60px;
+        padding-top: 0%;
+
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        width: 10%;
+    }
+    .box1 {
+        width: 100%;
+        height: 750px;
+        background-image: url("mobile/image-map.png");
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .btn1 {
+        width: 40%;
+        height: 50px;
+        position: absolute;
+        left: 14%;
+        color: white;
+        margin-top: -750px;
+    }
+    .btn2 {
+        width: 10%;
+        height: 50px;
+        position: absolute;
+        left: 8.1%;
+        color: white;
+        margin-top: -750px;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 500px;
+
+    }
+    .box2 .baslik1{
+        margin-top: 8%;
+        padding-top: 0%;
+
+    }
+    .box2 .baslik2{
+        padding-top: 2%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .box2 .ilk_paragraf{
+        padding-top: 2%;
+        margin-left: 10%;
+    }
+    .box2 .ikinci_paragraf{
+        padding-top: 2%;
+        margin-left: 10%;
+    }
+
+    .box3 {
+        width: 100%;
+        height: 300px;
+    }
+    .box3 .baslik{
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+    .box3 p{
+        margin-top: 8%;
+        margin-left: 10%;
+
+    }
+    .list {
+        list-style: none;
+        margin-right: 200px;
+        margin-top: -50px;
+        padding: 0;
+        color: #151515;
+
+    }
+    .list li {
+        display: inline-block;
+        float: right;
+        margin-right: -60px;
+        padding-top: 30%;
+
+
+    }
+}
